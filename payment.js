@@ -3,7 +3,7 @@
 var fullName= prompt("Enter your full name" , "No Name");
 var address= prompt("Enter your address", "no address");
 var city= prompt("Enter the city", "Vancouver");
-var Province= prompt("Enter the province", "British Columbia");
+var province= prompt("Enter the province", "British Columbia");
 var accountBalance=prompt("Enter the balance", "0.0");
 var account_Balance= parseInt(accountBalance);
 var totalAccountBalance;
@@ -17,7 +17,7 @@ if(accountBalance>0 && accountBalance<1000){
     document.write("<br>");
     document.write("City:"+" "+city);
     document.write("<br>");
-    document.write("Province:"+" "+Province);
+    document.write("Province:"+" "+province);
     document.write("<br>");
     document.write("Account Balance:"+" "+accountBalance);
     document.write("<br>");
@@ -31,7 +31,7 @@ else if(accountBalance>=1000){
     document.write("<br>");
     document.write("City:"+" "+city);
     document.write("<br>");
-    document.write("Province:"+" "+Province);
+    document.write("Province:"+" "+province);
     document.write("<br>");
     document.write("Account Balance:"+" "+accountBalance);
     document.write("<br>");
@@ -44,7 +44,7 @@ else if(accountBalance==0){
     document.write("<br>");
     document.write("City:"+" "+city);
     document.write("<br>");
-    document.write("Province:"+" "+Province);
+    document.write("Province:"+" "+province);
     document.write("<br>");
     document.write("Account Balance:"+" "+accountBalance);
     document.write("<br>");
